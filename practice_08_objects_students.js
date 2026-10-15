@@ -33,13 +33,14 @@ const movie = {
   director: "Christopher Nolan",
   rating: "PG-13",
   runtime: 169,
+  watched: "true",
 };
 
 // TODO 1: Print the movie title
-// console.log(...)
+ console.log(movie.title)
 
 // TODO 2: Print the director's name
-// console.log(...)
+ console.log(movie.director)
 
 // TODO 3: Print true/false — is runtime over 120?
 // console.log(...)
@@ -61,7 +62,7 @@ const movie = {
 // Write a function createStudent(name, grade, gpa) that:
 //   - Returns an object with those three properties
 //   - Also includes isHonors: true if gpa >= 3.5, false otherwise
-//
+const student
 // Expected output:
 //   createStudent("Alex", 11, 3.7)  → { name: "Alex", grade: 11, gpa: 3.7, isHonors: true }
 //   createStudent("Sam",  10, 2.9)  → { name: "Sam",  grade: 10, gpa: 2.9, isHonors: false }
