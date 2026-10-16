@@ -43,7 +43,11 @@ const movie = {
  console.log(movie.director)
 
 // TODO 3: Print true/false — is runtime over 120?
-// console.log(...)
+ 
+if ((movie.runtime) > 120){
+  console.log(true);
+} else {
+  console.log(no);}
 
 // TODO 4: Add a `watched` property set to true
 // movie.??? = ???
@@ -62,12 +66,14 @@ const movie = {
 // Write a function createStudent(name, grade, gpa) that:
 //   - Returns an object with those three properties
 //   - Also includes isHonors: true if gpa >= 3.5, false otherwise
-const student
+// const student
 // Expected output:
 //   createStudent("Alex", 11, 3.7)  → { name: "Alex", grade: 11, gpa: 3.7, isHonors: true }
 //   createStudent("Sam",  10, 2.9)  → { name: "Sam",  grade: 10, gpa: 2.9, isHonors: false }
 
 function createStudent(name, grade, gpa) {
+  
+  
   // TODO: return an object with name, grade, gpa, and isHonors
 }
 
